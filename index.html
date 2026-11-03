@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f1ea" />
+    <meta name="description" content="Бесконечность причин, почему я люблю Анастасию." />
+    <title>Почему я тебя люблю — Анастасия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <header class="topbar">
+        <a class="signature" href="#top" aria-label="В начало">s<span>♥</span>vkly</a>
+        <div class="topbar-note">для Анастасии <span aria-hidden="true">·</span> навсегда</div>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="eyebrow"><span class="eyebrow-line"></span> коллекция бесконечна <span class="eyebrow-line"></span></div>
+        <h1>Причины,<br /><em>почему я тебя люблю</em></h1>
+        <p class="intro">Их больше, чем можно сосчитать.<br />Но я всё равно попробовал.</p>
+        <a class="scroll-cue" href="#reasons" aria-label="Перейти к причинам"><span>↓</span> листай, любовь</a>
+      </section>
+
+      <section class="reasons-section" id="reasons" aria-label="Бесконечный список причин">
+        <div class="section-heading"><span>01</span><span class="heading-rule"></span><span>и ещё бесконечность</span></div>
+        <div class="ticker-window">
+          <div class="ticker" id="ticker"></div>
+        </div>
+        <div class="ticker-controls">
+          <button class="control-button" id="pauseButton" type="button" aria-label="Поставить на паузу"><span class="pause-icon">Ⅱ</span><span id="pauseLabel">пауза</span></button>
+          <span class="reason-counter"><b id="reasonCount">001</b> / 1000 причин</span>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-heart" aria-hidden="true">♥</div>
+        <p>Создано для моей девушки Анастасии</p>
+        <span>by savkly</span>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
